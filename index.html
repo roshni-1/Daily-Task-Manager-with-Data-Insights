@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Tool</title>
+</head>
+<body>
+    <h1>Productivity Tool</h1>
+    <form id="taskForm">
+        <label for="task">Task:</label>
+        <input type="text" id="task" required>
+        <button type="button" onclick="addTask()">Add Task</button>
+    </form>
+    <ul id="taskList"></ul>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.9/firebase-firestore.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
